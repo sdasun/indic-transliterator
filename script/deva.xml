@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<script code="sinh" name="Sinhala" >
+  <!-- 
+    [vir] = virama
+    [anu] = anusvara
+    [vis] = visarga
+  
+  Suppress-Script
+    "latn", // 1    Latin
+    "ethi", // 2    Ethiopian
+    "arab", // 3    Arabic
+    "beng", // 4    Bengali
+    "cyrl", // 5    Cyrillic
+    "thaa", // 6    Thaana 
+    "tibt", // 7    Tibetan
+    "grek", // 8    Greek
+    "gujr", // 9    Gujarati
+    "hebr", // 10   Hebrew
+    "deva", // 11   Devanagari
+    "armn", // 12   Armenian
+    "jpan", // 13   Japanese
+    "geor", // 14   Georgian
+    "khmr", // 15   Khmer
+    "knda", // 16   Kannada
+    "kore", // 17   Korean
+    "laoo", // 18   Lao
+    "mlym", // 19   Malayalam
+    "mymr", // 20   Burmese
+    "orya", // 21   Oriya
+    "guru", // 22   Punjabi
+    "sinh", // 23   Sinhalese or Sinhala
+    "taml", // 24   Tamil
+    "telu", // 25   Telugu
+    "thai", // 26   Thai
+    "nkoo", // 27   N'Ko
+    "blis", // 28   Bliss
+    "hans", // 29   Simplified Chinese
+    "hant", // 30   Traditional Chinese
+    "mong", // 31   Mongolian
+    "syrc"  // 32   Syriac
+Language
+	
+[c:khh]		[c:kh]
+[c:ghh]		[c:g]
+[c:z]		[c:j]
+[c:ddh]		[c:dd]
+[c:rh]		[c:ddh]
+[c:f]		[c:ph]
+[c:yy]		[c:y]
+  -->
+  <pipeline-in>
+    <rule in="[c:nd]" out="[anu][c:d]" />
+  </pipeline-in>
+  <pipeline-out>
+    <rule out="[c:q]" in="[c:k][nak]" />
+    <rule out="[c:khh]	" in="[c:kh][nak]" />
+    <rule out="[c:ghh]" in="[c:g][nak]" />
+    <rule out="[c:z]" in="[c:j][nak]" />  
+    <rule out="[c:ddh]" in="[c:dd][nak]" />
+    <rule out="[c:rh]" in="[c:ddh][nak]" />
+    <rule out="[c:f]" in="[c:ph][nak]" />
+    <rule out="[c:yy]" in="[c:y][nak]" />  
+  </pipeline-out>
+
+  <language code="" name="">
+	<letter code="&#x0905;" custom="[v:a]" />
+	<letter code="&#x0906;" custom="[v:aa]" />
+	<letter code="अॅ " custom="[v:ae]" />
+	<letter code="ऑ" custom="[v:aae]" />
+	<letter code="&#x0907;" custom="[v:i]" />
+	<letter code="&#x0908;" custom="[v:ii]" />
+	<letter code="&#x0909;" custom="[v:u]" />
+	<letter code="&#x090A;" custom="[v:uu]" />
+	<letter code="&#x090E;" custom="[v:e]" />
+	<letter code="&#x090F;" custom="[v:ee]" />
+	<letter code="&#x0910;" custom="[v:ai]" />
+	<letter code="&#x0912;" custom="[v:o]" />
+	<letter code="&#x0913;" custom="[v:oo]" />
+	<letter code="&#x0914;" custom="[v:au]" />
+	<letter code="&#x090B;" custom="[v:vr]" />
+	<letter code="&#x0960;" custom="[v:vrr]" />
+	<letter code="&#x090C;" custom="[v:vl]" />
+	<letter code="&#x0961;" custom="[v:vll]" />
+	<letter code="&#x0915;" custom="[c:k]" />
+	<letter code="&#x0916;" custom="[c:kh]" />
+	<letter code="&#x0917;" custom="[c:g]" />
+	<letter code="&#x0918;" custom="[c:gh]" />
+	<letter code="&#x0919;" custom="[c:ng]" />
+	<letter code="&#x091A;" custom="[c:c]" />
+	<letter code="&#x091C;" custom="[c:j]" />
+	<letter code="&#x091D;" custom="[c:jh]" />
+	<letter code="&#x091E;" custom="[c:ny]" />
+	<letter code="&#x091F;" custom="[c:tt]" />
+	<letter code="&#x0920;" custom="[c:tth]" />
+	<letter code="&#x0921;" custom="[c:dd]" />
+	<letter code="&#x0922;" custom="[c:ddh]" />
+	<letter code="&#x0923;" custom="[c:nn]" />
+	<letter code="&#x0924;" custom="[c:t]" />
+	<letter code="&#x0925;" custom="[c:th]" />
+	<letter code="&#x0926;" custom="[c:d]" />
+	<letter code="&#x0927;" custom="[c:dh]" />
+	<letter code="&#x0928;" custom="[c:n]" />
+	<letter code="&#x0929;" custom="[c:nnn]" />
+	<letter code="&#x092A;" custom="[c:p]" />
+	<letter code="&#x092B;" custom="[c:ph]" />
+	<letter code="&#x092C;" custom="[c:b]" />
+	<letter code="&#x092D;" custom="[c:bh]" />
+	<letter code="&#x092E;" custom="[c:m]" />
+	<letter code="&#x092F;" custom="[c:y]" />
+	<letter code="&#x0930;" custom="[c:r]" />
+	<letter code="&#x0931;" custom="[c:rr]" />
+	<letter code="&#x0932;" custom="[c:l]" />
+	<letter code="&#x0933;" custom="[c:ll]" />
+	<letter code="&#x0934;" custom="[c:lll]" />
+	<letter code="&#x0935;" custom="[c:v]" />
+	<letter code="&#x0936;" custom="[c:sh]" />
+	<letter code="&#x0937;" custom="[c:ss]" />
+	<letter code="&#x0938;" custom="[c:s]" />
+	<letter code="&#x0939;" custom="[c:h]" />
+	<letter code="&#x095E;" custom="[c:f]" />
+	<letter code="&#x094D;" custom="[vir]" />
+	<letter code="&#x093E;" custom="[s:aa]" />
+	<letter code="&#x0945;" custom="[s:ae]" />
+	<letter code="&#x0949;" custom="[s:aae]" />
+	<letter code="&#x093F;" custom="[s:i]" />
+	<letter code="&#x0940;" custom="[s:ii]" />
+	<letter code="&#x0941;" custom="[s:u]" />
+	<letter code="&#x0942;" custom="[s:uu]" />
+	<letter code="&#x0946;" custom="[s:e]" />
+	<letter code="&#x0947;" custom="[s:ee]" />
+	<letter code="&#x0948;" custom="[s:ai]" />
+	<letter code="&#x094A;" custom="[s:o]" />
+	<letter code="&#x094B;" custom="[s:oo]" />
+	<letter code="&#x094C;" custom="[s:au]" />
+	<letter code="&#x0943;" custom="[s:vr]" />
+	<letter code="&#x0944;" custom="[s:vrr]" />
+	<letter code="&#x0962;" custom="[s:vl]" />
+	<letter code="&#x0963;" custom="[s:vll]" />
+	<letter code="&#x0902;" custom="[anu]" />
+	<letter code="&#x0903;" custom="[vis]" />
+	<letter code="&#x0902;" custom="[anu]" />
+	<letter code="&#x0900;" custom="[cnd]" />
+	<letter code="&#x0901;" custom="[ann]" />
+	<letter code="&#x093C;" custom="[nak]" />
+	<letter code="&#x0958;" custom="[c:q]" />
+	<letter code="&#x0959;" custom="[c:khh]" />
+	<letter code="&#x095A;" custom="[c:ghh]" />
+	<letter code="&#x095B;" custom="[c:z]" />
+	<letter code="&#x095C;" custom="[c:ddh]" />
+	<letter code="&#x095D;" custom="[c:rh]" />
+	<letter code="&#x095E;" custom="[c:f]" />
+	<letter code="&#x095F;" custom="[c:yy]" />
+
+ 	<!-- Punctuation -->
+  </language>
+</script>

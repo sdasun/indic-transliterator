@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<script code="tamn" name="Tamil" >
+  <!-- 
+    [vir] = virama
+    [anu] = anusvara
+    [vis] = visarga
+  -->
+  <pipeline-in>
+	<rule  in="[cnd]" out="" />
+	<rule  in="[ann]" out="" />
+	<rule  in="[c:mb]" out="[c:m][vir][c:p]" />
+	<rule in="[c:ddh]" out="[c:dd]" />
+    <rule in="[c:dh]" out="[c:t]" />
+    <rule in="[c:ch]" out="[c:c]" />
+    <rule in="[c:bh]" out="[c:p]" />
+    <rule in="[c:kh]" out="[c:k]" />
+    <rule in="[c:tth]" out="[c:tt]" />
+    <rule in="[c:ch]" out="[c:tt]" />
+  	<rule in="[c:nd]" out="[anu][c:t]" />
+    <rule in="[c:s]" out="[c:c]" />
+	<rule in="[c:c]" out="[c:c][vir][c:c]" />
+    <rule in="[v:ae]" out="[v:e]"/>
+    <rule in="[v:aae]" out="[v:ee]" />
+    <rule in="{start}[c:p]" out="[c:p]" />
+    <rule in="[c:p]" out="[c:p][vir][c:p]" />
+    <rule in="[c:b]" out="[c:p]" />
+    <rule in="[c:d]" out="[c:t]" />
+    <rule in="[c:g]" out="[c:k]" />
+    <rule in="[s:ae]" out="[s:e]" />
+    <rule in="[s:aae]" out="[s:ee]" />
+    <rule in="[c:jh]" out="[c:j]" />
+    <rule in="[anu]" out="[c:ng][vir]" />
+    <rule in="[c:q]" out="[c:k]" />
+    <rule in="[c:khh]" out="[c:k]" />
+    <rule in="[c:ghh]" out="[c:k]]" />
+    <rule in="[c:z]" out="[vis][c:j]" />
+    <rule in="[c:f]" out="[vis][c:p]" />   
+    <rule in="[c:ddh]" out="[c:dd]" />
+    <rule in="[c:rh]" out="[c:r]" />
+    <rule in="[c:yy]" out="[c:y]" />  
+    
+    <!--
+    <letter code="&#x0B8D;" IPA="r̩" ISO="r̥" custom="[v:vr]" />
+    <letter code="&#x0B8E;" IPA="r̩ː" ISO="r̥̄" custom="[v:vrr]" />
+    <letter code="&#x0B8F;" IPA="l̩" ISO="l̥" custom="[v:vl]" />
+    <letter code="&#x0B90;" IPA="l̩ː" ISO="l̥̄" custom="[v:vll]" /
+    -->
+  </pipeline-in>
+  <pipeline-out>
+    <rule in="[c:p][vir][c:p]" out="[c:p]" />
+    <rule in="[c:p]" out="[c:b]" />
+    <rule in="{start}[c:c]" out="[c:s]" />
+    <rule in="[c:d][vir][c:d]" out="[c:t]" />
+    <rule in="[c:c][vir][c:c]" out="[c:c]" />
+    <rule in="[c:c]" out="[c:s]" />
+    
+    <rule in="[vis][c:j]" out="[c:z]" />
+    <rule in="[vis][c:p]" out="[c:f]" />
+  </pipeline-out>
+  <language code="" name="">
+	<letter code="&#x0B85;" custom="[v:a]" />
+	<letter code="&#x0B86;" custom="[v:aa]" />
+	<letter code="&#x0B87;" custom="[v:i]" />
+	<letter code="&#x0B88;" custom="[v:ii]" />
+	<letter code="&#x0B89;" custom="[v:u]" />
+	<letter code="&#x0B8A;" custom="[v:uu]" />
+	<letter code="&#x0B8E;" custom="[v:e]" />
+	<letter code="&#x0B8F;" custom="[v:ee]" />
+	<letter code="&#x0B90;" custom="[v:ai]" />
+	<letter code="ஒ" custom="[v:o]" />
+	<letter code="&#x0B93;" custom="[v:oo]" />
+	<letter code="&#x0B94;" custom="[v:au]" />
+	<letter code="&#x0B95;" custom="[c:k]" />
+	<letter code="&#x0B99;" custom="[c:ng]" />
+	<letter code="&#x0B9A;" custom="[c:c]" />
+	<letter code="&#x0B9C;" custom="[c:j]" />
+	<letter code="&#x0B9E;" custom="[c:ny]" />
+	<letter code="&#x0B9C;" custom="[c:jny]" />
+	<letter code="&#x0B9F;" custom="[c:tt]" />
+	<letter code="&#x0B9F;" custom="[c:dd]" />
+	<letter code="&#x0BA3;" custom="[c:nn]" />
+	<letter code="&#x0BA4;" custom="[c:t]" />
+	<letter code="&#x0BA8;" custom="[c:n]" />
+	<letter code="&#x0BA9;" custom="[c:nnn]" />
+	<letter code="&#x0BAA;" custom="[c:p]" />
+	<letter code="&#x0BAE;" custom="[c:m]" />
+	<letter code="&#x0BAF;" custom="[c:y]" />
+	<letter code="&#x0BB0;" custom="[c:r]" />
+	<letter code="&#x0BB1;" custom="[c:rr]" />
+	<letter code="&#x0BB2;" custom="[c:l]" />
+	<letter code="&#x0BB3;" custom="[c:ll]" />
+	<letter code="&#x0BB4;" custom="[c:lll]" />
+	<letter code="&#x0BB5;" custom="[c:v]" />
+	<letter code="&#x0BB6;" custom="[c:sh]" />
+	<letter code="&#x0BB7;" custom="[c:ss]" />
+	<letter code="&#x0BB8;" custom="[c:s]" />
+	<letter code="&#x0BB9;" custom="[c:h]" />
+	<letter code="&#x0BCD;" custom="[vir]" />
+	<letter code="&#x0BBE;" custom="[s:aa]" />
+	<letter code="&#x0BBF;" custom="[s:i]" />
+	<letter code="&#x0BC0;" custom="[s:ii]" />
+	<letter code="&#x0BC1;" custom="[s:u]" />
+	<letter code="&#x0BC2;" custom="[s:uu]" />
+	<letter code="&#x0BC6;" custom="[s:e]" />
+	<letter code="&#x0BC7;" custom="[s:ee]" />
+	<letter code="&#x0BC8;" custom="[s:ai]" />
+	<letter code="&#x0BCA;" custom="[s:o]" />
+	<letter code="&#x0BCB;" custom="[s:oo]" />
+	<letter code="&#x0BCC;" custom="[s:au]" />
+	<letter code="&#x0B82;" custom="[anu]" />
+	<letter code="&#x0B83;" custom="[vis]" />
+  <!-- Punctuation -->
+    <skip code="&#x0BF4;" />
+  </language>
+</script>

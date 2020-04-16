@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<script code="sinh" name="Sinhala" >
+  <!-- 
+    [vir] = virama
+    [anu] = anusvara
+    [vis] = visarga
+  
+  Suppress-Script
+    "latn", // 1    Latin
+    "ethi", // 2    Ethiopian
+    "arab", // 3    Arabic
+    "beng", // 4    Bengali
+    "cyrl", // 5    Cyrillic
+    "thaa", // 6    Thaana 
+    "tibt", // 7    Tibetan
+    "grek", // 8    Greek
+    "gujr", // 9    Gujarati
+    "hebr", // 10   Hebrew
+    "deva", // 11   Devanagari
+    "armn", // 12   Armenian
+    "jpan", // 13   Japanese
+    "geor", // 14   Georgian
+    "khmr", // 15   Khmer
+    "knda", // 16   Kannada
+    "kore", // 17   Korean
+    "laoo", // 18   Lao
+    "mlym", // 19   Malayalam
+    "mymr", // 20   Burmese
+    "orya", // 21   Oriya
+    "guru", // 22   Punjabi
+    "sinh", // 23   Sinhalese or Sinhala
+    "taml", // 24   Tamil
+    "telu", // 25   Telugu
+    "thai", // 26   Thai
+    "nkoo", // 27   N'Ko
+    "blis", // 28   Bliss
+    "hans", // 29   Simplified Chinese
+    "hant", // 30   Traditional Chinese
+    "mong", // 31   Mongolian
+    "syrc"  // 32   Syriac
+Language
+
+  -->
+  <pipeline-in>
+    <rule in="[c:nnn]" out="[c:nn]" />
+    <rule in="[c:rr]" out="[c:r]" />
+    <rule in="[c:lll]" out="[c:ll]" />
+	<rule  in="[cnd]" out="" />
+	<rule  in="[ann]" out="" />
+	
+    <rule in="[c:q]" out="[c:k]" />
+    <rule in="[c:khh]" out="[c:kh]" />
+    <rule in="[c:ghh]" out="[c:gh]]" />
+    <rule in="[c:z]" out="[c:s]" />  
+    <rule in="[c:ddh]" out="[c:dd]" />
+    <rule in="[c:rh]" out="[c:r]" />
+    <rule in="[c:yy]" out="[c:y]" />  
+    
+	
+    <!--
+    <letter code="&#x0B8D;" IPA="r̩" ISO="r̥" custom="[v:vr]" />
+    <letter code="&#x0B8E;" IPA="r̩ː" ISO="r̥̄" custom="[v:vrr]" />
+    <letter code="&#x0B8F;" IPA="l̩" ISO="l̥" custom="[v:vl]" />
+    <letter code="&#x0B90;" IPA="l̩ː" ISO="l̥̄" custom="[v:vll]" /
+    -->
+  </pipeline-in>
+  <pipeline-out>
+  [c:jny]
+  <rule in="[c:jny]" out="[c:j]" />
+  </pipeline-out>
+
+  <language code="" name="">
+	<!--vowels-->
+    <!--Letter a (අ) -->
+    <letter code="&#x0D85;" IPA="ə" ISO="a" custom="[v:a]" />
+    <!--Letter aa (ආ) -->
+    <letter code="&#x0D86;" IPA="ɑː" ISO="ā" custom="[v:aa]" />
+    <!--Letter ae (ඇ) -->
+    <letter code="&#x0D87;" IPA="æ" ISO="æ" custom="[v:ae]" />
+    <!--Letter aae (ඈ) -->
+    <letter code="&#x0D88;" IPA="æː" ISO="ǣ" custom="[v:aae]" />
+    <!--Letter i (ඉ) -->
+    <letter code="&#x0D89;" IPA="i" ISO="i" custom="[v:i]" />
+    <!--Letter ii (ඊ) -->
+    <letter code="&#x0D8A;" IPA="iː" ISO="ī" custom="[v:ii]" />
+    <!--Letter u (උ) -->
+    <letter code="&#x0D8B;" IPA="u" ISO="u" custom="[v:u]" />
+    <!--Letter uu(ඌ) -->
+    <letter code="&#x0D8C;" IPA="uː" ISO="ū" custom="[v:uu]" />
+    <!--Letter e (එ) -->
+    <letter code="&#x0D91;" IPA="e" ISO="e" custom="[v:e]" />
+    <!--Letter ee (ඒ) -->
+    <letter code="&#x0D92;" IPA="eː" ISO="ē" custom="[v:ee]" />
+    <!--Letter ai (ඓ) -->
+    <letter code="&#x0D93;" IPA="əi" ISO="ai" custom="[v:ai]" />
+    <!--Letter o (ඔ) -->
+    <letter code="&#x0D94;" IPA="o" ISO="o" custom="[v:o]" />
+    <!--Letter oo (ඕ) -->
+    <letter code="&#x0D95;" IPA="oː" ISO="ō" custom="[v:oo]" />
+    <!--Letter au (ඖ) -->
+    <letter code="&#x0D96;" IPA="əu" ISO="au" custom="[v:au]" />
+    <!--Letter vocalic r (ඍ) -->
+    <letter code="&#x0D8D;" IPA="r̩" ISO="r̥" custom="[v:vr]" />
+    <!--Letter vocalic rr (ඎ) -->
+    <letter code="&#x0D8E;" IPA="r̩ː" ISO="r̥̄" custom="[v:vrr]" />
+    <!--Letter vocalic l (ඏ) -->
+    <letter code="&#x0D8F;" IPA="l̩" ISO="l̥" custom="[v:vl]" />
+    <!--Letter vocalic ll (ඐ) -->
+    <letter code="&#x0D90;" IPA="l̩ː" ISO="l̥̄" custom="[v:vll]" />
+
+  <!--consonants-->
+    <letter code="ක" IPA="k" ISO="k" custom="[c:k]" />
+    <letter code="ඛ" IPA="kʰ" ISO="kh" custom="[c:kh]" />
+    <letter code="ග" IPA="ɡ" ISO="g" custom="[c:g]" />
+    <letter code="ඝ" IPA="ɡʱ" ISO="gh" custom="[c:gh]" />
+    <letter code="ඞ" IPA="ŋ" ISO="ṅ" custom="[c:ng]" />
+    <letter code="ඟ" IPA="ŋ" ISO="ṅ" custom="[c:nng]" />
+    <letter code="ච" IPA="c" ISO="c" custom="[c:c]" />
+    <letter code="ඡ" IPA="cʰ" ISO="ch" custom="[c:ch]" />
+    <letter code="ජ" IPA="ɟ" ISO="j" custom="[c:j]" />
+    <letter code="ඣ" IPA="ɟʱ" ISO="jh" custom="[c:jh]" />
+    <letter code="ඤ" IPA="ɲ" ISO="ñ" custom="[c:ny]" />
+    <letter code="ඥ" IPA="ɲ" ISO="ñ" custom="[c:jny]" />
+    <letter code="ඦ" IPA="ɲɟ" ISO="ñj" custom="[c:nyj]" first-alt="[c:ny][c:j]" second-alt="[anu][c:y][c:j]" third-alt="[c:n][c:y][c:j]"/>
+    <letter code="ට" IPA="ʈ" ISO="ṭ" custom="[c:tt]" />
+    <letter code="ඨ" IPA="ʈʰ" ISO="ṭh" custom="[c:tth]" />
+    <letter code="ඩ" IPA="ɖ" ISO="ḍ" custom="[c:dd]" />
+    <letter code="ඪ" IPA="ɖʱ" ISO="ḍh" custom="[c:ddh]" />
+    <letter code="ණ" IPA="ɳ" ISO="ṇ" custom="[c:nn]" />
+    <letter code="ත" IPA="t̪" ISO="t" custom="[c:t]" />
+    <letter code="ථ" IPA="t̪ʰ" ISO="th" custom="[c:th]" />
+    <letter code="ද" IPA="d̪" ISO="d" custom="[c:d]" />
+    <letter code="ධ" IPA="d̪ʱ" ISO="dh" custom="[c:dh]" />
+    <letter code="න" IPA="n̪" ISO="n" custom="[c:n]" />
+    <!--
+    <letter code="" IPA="n" ISO="ṉ" custom="[c:]" />
+    -->
+    <letter code="ඳ" IPA="ɲd̪" ISO="ñd" custom="[c:nd]" first-alt="[anu][c:d]" second-alt="[c:n][c:d]" />
+    <letter code="ප" IPA="p" ISO="p" custom="[c:p]" />
+    <letter code="ඵ" IPA="pʰ" ISO="ph" custom="[c:ph]" />
+    <letter code="බ" IPA="b" ISO="b" custom="[c:b]" />
+    <letter code="භ" IPA="bʱ" ISO="bh" custom="[c:bh]" />
+    <letter code="ම" IPA="m" ISO="m" custom="[c:m]" />
+    <letter code="ඹ" IPA="mb" ISO="mb" custom="[c:mb]" />
+    <letter code="ය" IPA="j" ISO="y" custom="[c:y]" />
+    <letter code="ර" IPA="r" ISO="r" custom="[c:r]" />
+    <!--
+    <letter code="" IPA="ɾ" ISO="ṟ" custom="[c:]" />
+    -->
+    <letter code="ල" IPA="l" ISO="l" custom="[c:l]" />
+    <letter code="ළ" IPA="ɭ" ISO="ḷ" custom="[c:ll]" />
+    <!--
+    <letter code="" IPA="ɻ" ISO="ḻ" custom="[c:]" />
+    -->
+    <letter code="ව" IPA="ʋ" ISO="v" custom="[c:v]" />
+    <letter code="ශ" IPA="ʃ" ISO="ś" custom="[c:sh]" />
+    <letter code="ෂ" IPA="ʂ" ISO="ṣ" custom="[c:ss]" />
+    <letter code="ස" IPA="s" ISO="s" custom="[c:s]" />
+    <letter code="හ" IPA="ɦ" ISO="h" custom="[c:h]" />
+
+    <letter code="ෆ" IPA="f" ISO="f" custom="[c:f]" />
+  <!--signs-->
+    <letter code="්" IPA="" ISO="" custom="[vir]" />
+    <letter code="&#x0DCF;" IPA="ɑː" ISO="ā" custom="[s:aa]" />
+    <letter code="&#x0DD0;" IPA="æ" ISO="æ" custom="[s:ae]" />
+    <letter code="&#x0DD1;" IPA="æː" ISO="ǣ" custom="[s:aae]" />
+    <letter code="&#x0DD2;" IPA="i" ISO="i" custom="[s:i]" />
+    <letter code="&#x0DD3;" IPA="iː" ISO="ī" custom="[s:ii]" />
+    <letter code="&#x0DD4;" IPA="u" ISO="u" custom="[s:u]" />
+    <letter code="&#x0DD6;" IPA="uː" ISO="ū" custom="[s:uu]" />
+    <letter code="&#x0DD9;" IPA="e" ISO="e" custom="[s:e]" />
+    <letter code="&#x0DDA;" IPA="eː" ISO="ē" custom="[s:ee]" />
+    <letter code="&#x0DDB;" IPA="əi" ISO="ai" custom="[s:ai]" />
+    <letter code="&#x0DDC;" IPA="o" ISO="o" custom="[s:o]" />
+    <letter code="&#x0DDD;" IPA="oː" ISO="ō" custom="[s:oo]" />
+    <letter code="&#x0DDE;" IPA="əu" ISO="au" custom="[s:au]" />
+    <letter code="&#x0DD8;" IPA="r̩" ISO="r̥" custom="[s:vr]" />
+    <letter code="&#x0DF2;" IPA="r̩ː" ISO="r̥̄" custom="[s:vrr]" />
+    <letter code="&#x0DDF;" IPA="l̩" ISO="l̥" custom="[s:vl]" />
+    <letter code="&#x0DF3;" IPA="l̩ː" ISO="l̥̄" custom="[s:vll]" />
+    
+    <letter code="&#x0D82;" IPA="" ISO="" custom="[anu]" />
+    <letter code="&#x0D83;" IPA="" ISO="" custom="[vis]" />
+    
+  <!-- Punctuation -->
+    <skip code="&#x0DF4;" />
+  </language>
+</script>

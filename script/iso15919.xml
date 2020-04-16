@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<script code="tamn" name="Tamil" >
+  <!-- 
+    [vir] = virama
+    [anu] = anusvara
+    [vis] = visarga
+  -->
+  <pipeline-in>
+  </pipeline-in>
+  <pipeline-out>
+  </pipeline-out>
+  <language code="" name="">
+	<letter code="a" custom="[v:a]" />
+	<letter code="ā" custom="[v:aa]" />
+	<letter code="æ" custom="[v:ae]" />
+	<letter code="ǣ" custom="[v:aae]" />
+	<letter code="i" custom="[v:i]" />
+	<letter code="ī" custom="[v:ii]" />
+	<letter code="u" custom="[v:u]" />
+	<letter code="ū" custom="[v:uu]" />
+	<letter code="e" custom="[v:e]" />
+	<letter code="ē" custom="[v:ee]" />
+	<letter code="ai" custom="[v:ai]" />
+	<letter code="o" custom="[v:o]" />
+	<letter code="ō" custom="[v:oo]" />
+	<letter code="au" custom="[v:au]" />
+	<letter code="r̥" custom="[v:vr]" />
+	<letter code="r̥̄" custom="[v:vrr]" />
+	<letter code="l̥" custom="[v:vl]" />
+	<letter code="l̥̄" custom="[v:vll]" />
+	<letter code="k" custom="[c:k]" />
+	<letter code="kh" custom="[c:kh]" />
+	<letter code="g" custom="[c:g]" />
+	<letter code="gh" custom="[c:gh]" />
+	<letter code="ṅ" custom="[c:ng]" />
+	<letter code="ṅ" custom="[c:nng]" />
+	<letter code="c" custom="[c:c]" />
+	<letter code="ch" custom="[c:ch]" />
+	<letter code="j" custom="[c:j]" />
+	<letter code="jh" custom="[c:jh]" />
+	<letter code="ñ" custom="[c:ny]" />
+	<letter code="ñ" custom="[c:jny]" />
+	<letter code="ñj" custom="[c:nyj]" />
+	<letter code="ṭ" custom="[c:tt]" />
+	<letter code="ṭh" custom="[c:tth]" />
+	<letter code="ḍ" custom="[c:dd]" />
+	<letter code="ḍh" custom="[c:ddh]" />
+	<letter code="ṇ" custom="[c:nn]" />
+	<letter code="t" custom="[c:t]" />
+	<letter code="th" custom="[c:th]" />
+	<letter code="d" custom="[c:d]" />
+	<letter code="dh" custom="[c:dh]" />
+	<letter code="n" custom="[c:n]" />
+	<letter code="n" custom="[c:nnn]" />
+	<letter code="ñd" custom="[c:nd]" />
+	<letter code="p" custom="[c:p]" />
+	<letter code="ph" custom="[c:ph]" />
+	<letter code="b" custom="[c:b]" />
+	<letter code="bh" custom="[c:bh]" />
+	<letter code="m" custom="[c:m]" />
+	<letter code="mb" custom="[c:mb]" />
+	<letter code="y" custom="[c:y]" />
+	<letter code="r" custom="[c:r]" />
+	<letter code="ṟ" custom="[c:rr]" />
+	<letter code="l" custom="[c:l]" />
+	<letter code="ḷ" custom="[c:ll]" />
+	<letter code="ḻ" custom="[c:lll]" />
+	<letter code="v" custom="[c:v]" />
+	<letter code="ś" custom="[c:sh]" />
+	<letter code="ṣ" custom="[c:ss]" />
+	<letter code="s" custom="[c:s]" />
+	<letter code="h" custom="[c:h]" />
+	<letter code="q" custom="[c:q]" />
+	<letter code="k͟h" custom="[c:khh]" />
+	<letter code="ġ" custom="[c:ghh]" />
+	<letter code="z" custom="[c:z]" />
+	<letter code="ṛ" custom="[c:dddh]" />
+	<letter code="ṛh" custom="[c:rh]" />
+	<letter code="f" custom="[c:f]" />
+	<letter code="y" custom="[c:yy]" />
+	<letter code="ā" custom="[s:aa]" />
+	<letter code="æ" custom="[s:ae]" />
+	<letter code="ǣ" custom="[s:aae]" />
+	<letter code="i" custom="[s:i]" />
+	<letter code="ī" custom="[s:ii]" />
+	<letter code="u" custom="[s:u]" />
+	<letter code="ū" custom="[s:uu]" />
+	<letter code="e" custom="[s:e]" />
+	<letter code="ē" custom="[s:ee]" />
+	<letter code="ai" custom="[s:ai]" />
+	<letter code="o" custom="[s:o]" />
+	<letter code="ō" custom="[s:oo]" />
+	<letter code="au" custom="[s:au]" />
+	<letter code="r̥" custom="[s:vr]" />
+	<letter code="r̥̄" custom="[s:vrr]" />
+	<letter code="l̥" custom="[s:vl]" />
+	<letter code="l̥̄" custom="[s:vll]" />
+	<letter code="ṃ" custom="[anu]" />
+	<letter code="ḥ" custom="[vis]" />
+
+  <!-- Punctuation -->
+    <skip code="&#x0BF4;" />
+  </language>
+</script>
